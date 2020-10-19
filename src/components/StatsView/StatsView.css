@@ -1,0 +1,26 @@
+.StatsView {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 800px;
+  background-color: #ccc;
+  padding: 1rem;
+}
+
+.StatsView button {
+  padding: 1rem;
+  background-color: #eee;
+  border: none;
+  text-transform: uppercase;
+}
+
+.StatsView button:not(:first-of-type) {
+  margin-left: 1rem;
+}
+
+.StatsView .score {
+  width: 13rem;
+  padding: 1rem;
+  background-color: #eee;
+}

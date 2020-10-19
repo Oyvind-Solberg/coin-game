@@ -1,0 +1,15 @@
+.GameView {
+	position: relative;
+
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+
+	width: 800px;
+	height: 600px;
+
+  background-color: #6c854b;
+  background-image: url("../../assets/grass.png");
+  background-size: 50px;
+  overflow: hidden;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.6);
+}

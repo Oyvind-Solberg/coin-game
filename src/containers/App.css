@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	width: 100vw;
+	height: 100vh;
+
+  background-color: darkgray;
+  background: linear-gradient(to bottom left, rgb(185, 160, 134), rgb(80, 95, 63));
+}

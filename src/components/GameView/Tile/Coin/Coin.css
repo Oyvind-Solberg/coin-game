@@ -1,0 +1,9 @@
+.Coin {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-image: url("../../../../assets/coin.png");
+  background-size: contain;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
